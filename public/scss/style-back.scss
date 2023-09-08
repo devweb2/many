@@ -1,0 +1,17 @@
+
+body{
+    .table-index{
+        tr{
+            th{
+                &:last-child{
+                    text-align: right;
+                }
+            }
+            td{
+                &:last-child{
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
